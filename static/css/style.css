@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Momo+Trust+Display:regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Momo Trust Display";
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(45deg, red, yellow);
+    min-height: 100vh;
+}
+
+nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav .personal a {
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    gap: 10px;
+}
+
+.new {
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.new img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
